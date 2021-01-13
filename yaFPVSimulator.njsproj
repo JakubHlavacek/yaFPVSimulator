@@ -38,7 +38,6 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="dist\server.js" />
     <Content Include="client_user\tsconfig.json" />
     <Content Include="dist\static_user\index.html" />
   </ItemGroup>
@@ -46,7 +45,6 @@
     <Folder Include="client_user\" />
     <Folder Include="dist\" />
     <Folder Include="dist\static_user\" />
-    <Folder Include="server\" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="client_user\app.tsx" />
@@ -54,8 +52,6 @@
     <TypeScriptCompile Include="client_user\polyfills.ts" />
     <TypeScriptCompile Include="client_user\react.d.ts" />
     <TypeScriptCompile Include="client_user\tools.tsx" />
-    <TypeScriptCompile Include="server\server.ts" />
-    <TypeScriptCompile Include="server\server_tools.ts" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />

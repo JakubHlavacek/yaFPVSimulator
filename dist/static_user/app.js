@@ -180,8 +180,6 @@ function setTimeoutA(ms) {
     goals: fisheye projection, config similar to betaflight, scene without borders, low hw requirements, crosshair in osd, draw own horizon in osd, allow control also with keyboard/mouse
 
 
-    https://github.com/shaunlebron/blinky (?)
-
     lights, textures, shadows, https://webgl2fundamentals.org, https://developer.download.nvidia.com/CgTutorial/cg_tutorial_chapter07.html, https://google.github.io/filament/Filament.html
         https://www.pixijs.com/, https://unity.com
     fisheye, https://github.com/shaunlebron/blinky, https://pvdz.ee/weblog/340
@@ -189,7 +187,6 @@ function setTimeoutA(ms) {
 
 
 
-    repo on github
     2. channel (pitch) is noisy after connectiong my rc with usb (it's ok with FeiYing). can it be corrected with some filter? what filter is in betaflight (if any)?
     map/scene
     collisions
