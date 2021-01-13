@@ -1,0 +1,30 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "outDir": "../dist/static_user",
+    "outFile": "../dist/static_user/app.js",
+    //"module": "es2015",
+    //"module": "CommonJS",
+    "target": "es2015",
+    "lib": [ "es6", "dom", "es2015", "es2015.core", "es2019" ],
+    "sourceMap": true,
+    "inlineSources": true,
+
+    "jsx": "react",
+    "jsxFactory": "myCreateElement",
+
+    //"moduleResolution": "node",
+
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "strict": true,
+    "suppressImplicitAnyIndexErrors": true,
+    //"noUnusedLocals": true,
+
+    "types": []
+  },
+  "files": [
+    "app.tsx"
+  ],
+  "include": []
+}
